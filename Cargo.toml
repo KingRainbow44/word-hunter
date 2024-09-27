@@ -1,0 +1,17 @@
+[package]
+name = "word-hunt"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+
+# Java Native Interface
+# Allows the library to be used with Java
+jni = "0.21"
+
+# Lazy Static
+# Allows the Rust compiler to access static variables
+lazy_static = "1"
